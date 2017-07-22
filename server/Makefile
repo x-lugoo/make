@@ -1,5 +1,6 @@
 CFLAGS=-Wall -O -g
-CC=gcc
+CROSS_PLATFORM=
+CC=$(CROSS_PLATFORM)gcc
 SUB_DIR=./subdir
 OBJS=main.o
 OBJS+=test.o
